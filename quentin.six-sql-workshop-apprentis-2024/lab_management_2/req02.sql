@@ -1,0 +1,2 @@
+ALTER TABLE assistant ADD credit NUMERIC(4,2) NOT NULL DEFAULT 0.00;
+

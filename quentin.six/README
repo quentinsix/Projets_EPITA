@@ -1,0 +1,17 @@
+Welcome to Ekip.
+First, to use our OCR, you need to go in folder named "Traitement-image". There you can type "make" in your terminal to compile.
+Then you have two options.
+
+The first one, to see all the steps of the image treatment and segmentation. To do so, type "./main *path to your image" --sdl". The image will open and you can press a key to go through the different steps.
+
+The second options is to use the final project, just type "./main" in the console. The GUI opens with buttons on it:
+- To select an image click on "open image", select it and then click on "load image".
+- The "Train neural network" will train the neural network, if it doesn't exist the neural network is created before its training.
+- The "Delete" button will delete the ".save" files (the neural network)
+- The "Delete *.txt" button will delete the ".txt" files which correspond to each character of a selected image
+
+- To finish, if an image is selected and loaded you can click on the Button "OCR" to launch the main function, it will create a file "output.txt" wich will contain the characters of the selected image.
+
+The Ekip team ;)
+
+
